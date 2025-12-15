@@ -13,8 +13,15 @@ Interactive CLI demo for trained Q-learning agent. Tests agent on 10 pre-defined
 
 ## Usage
 
+**IMPORTANT: Train the agent before running the demo!**
+
 ```bash
 cd travel-booking-qlearning
+
+# 1. Train the agent first (required)
+python main.py
+
+# 2. Run the demo (loads trained Q-tables)
 python demo.py
 ```
 
@@ -56,8 +63,9 @@ Quit demo
 
 ## Requirements
 
-- Trained Q-tables in `data/results/` (run `python main.py` first)
-- All project dependencies installed (`pip install -r requirements.txt`)
+- Python 3.7+
+- Dependencies: `pip install -r requirements.txt`
+- **Trained Q-tables**: Must run `python main.py` to train agent first
 
 ## Example Output
 
